@@ -14,13 +14,13 @@ Compared to the [memory-leak-quasar-v1](https://github.com/Evertvdw/memory-leak-
 
 ## Packages used in this repo
 
-quasar - 2.14.6
-@quasar/app-vite - 2.0.0-beta.4
-vue - 3.4.21
-vue-router - 4.3.0
-vite - 5.1.5
-@intlify/unplugin-vue-i18n - 2.0.0
-vue-i18n - 9.10.1
+- quasar - 2.14.6
+- @quasar/app-vite - 2.0.0-beta.4
+- vue - 3.4.21
+- vue-router - 4.3.0
+- vite - 5.1.5
+- @intlify/unplugin-vue-i18n - 2.0.0
+- vue-i18n - 9.10.1
 
 ## Disabling boot file 'i18n' will not result in a memory leak
 
