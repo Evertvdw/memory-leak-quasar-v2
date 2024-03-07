@@ -22,6 +22,8 @@ Compared to the [memory-leak-quasar-v1](https://github.com/Evertvdw/memory-leak-
 - @intlify/unplugin-vue-i18n - 2.0.0
 - vue-i18n - 9.10.1
 
+I ran this test myself using node version 18.17.0 on Windows 11.
+
 ## Disabling boot file 'i18n' will not result in a memory leak
 
 If you comment out line 27 inside the `quasar.config.ts` and run the reproduction again you will not see the memory issue, so something with regards to using i18n is causing this.
